@@ -1,0 +1,102 @@
+body {
+	margin: auto 0;
+}
+
+.zone {
+	/*padding: 30px 50px;
+	margin: 40px 60px;*/
+	cursor:pointer;
+	/*display:inline-block;*/
+	color:#fff;
+	font-size:2em;
+	border-radius:4px;
+	border:1px solid #bbb;
+	transition: all 0.3s linrar;
+}
+
+.zone:hover {
+	-webkit-box-shadow:raba(0, 0,0,0.8) 0px 5px 15px, inset raba(0,0,0,0.15) 
+    -moz-box-shadow:raba(0, 0,0,0.8) 0px 5px 15px, inset raba(0,0,0,0.15) 
+    -o-box-shadow:raba(0, 0,0,0.8) 0px 5px 15px, inset raba(0,0,0,0.15) 
+    box-shadow:raba(0, 0,0,0.8) 0px 5px 15px, inset raba(0,0,0,0.15) 0px
+}
+
+/*NAV*/
+.sticky {
+	position: fixed;
+	top: 0;
+}
+.main-nav {
+display: flex;
+list-style: none;
+	font-size: 0.7em;
+	margin: 0;
+}
+
+li {
+	padding: 20px;
+}
+
+a {
+	color: #f5f5f6;
+	text-decoration: none;
+}
+
+/*cover*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.cover {
+	width: 30rem;
+}
+
+
+
+/*https://paulund.co.uk/how-to-creat-shiny-css-button*/
+/********************************************************************************************************************************************************
+* green background
+**********************************************************************************************************************************************************/
+.green{
+	background: #56bb70; /* old browsers */
+    background: -moz-linear-gradient(linear, left top, l);
+    background: -wwebkit-linear-gradient(top, #56b870);
+}
+
+
+/*https://paulund.co.uk/how-to-creat-shiny-css-button*/
+/********************************************************************************************************************************************************
+* red background
+**********************************************************************************************************************************************************/
+.red{
+	background: red; /* old browsers */
+    background: -moz-linear-gradient(linear, left top, l);
+    background: -wwebkit-linear-gradient(top, #56b870);
+}
+
+
+/*https://paulund.co.uk/how-to-creat-shiny-css-button*/
+/********************************************************************************************************************************************************
+* green background
+**********************************************************************************************************************************************************/
+.blue{
+	background: blue; /* old browsers */
+    background: -moz-linear-gradient(linear, left top, l);
+    background: -wwebkit-linear-gradient(top, #56b870);
+}
+
+
+/*https://paulund.co.uk/how-to-creat-shiny-css-button*/
+/********************************************************************************************************************************************************
+* green background
+**********************************************************************************************************************************************************/
+.yellow{
+	background: orange; /* old browsers */
+    background: -moz-linear-gradient(linear, left top, l);
+    background: -wwebkit-linear-gradient(top, #56b870);
+}
+
+
+
